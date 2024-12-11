@@ -20,4 +20,4 @@ jobs:
           host: ${{ secrets.HOST }} # ip
           username: ${{ secrets.USER }} # 해당 유저 접속 
           script: | # 실행 할 코드
-            midir hello_there
+            mkdir hello_there
