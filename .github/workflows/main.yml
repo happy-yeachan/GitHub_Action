@@ -9,7 +9,7 @@ on: # 이럴때 실행 해달라
 # 실행
 jobs:
   SSH:
-    runs-on: ubuntu-latest # 우분투 최신버전으로 컴퓨터를 준비하라 ()
+    runs-on: ubuntu-22.04 # 본인 우분투 버전 설정
 
     steps:
       - uses: actions/checkout@v3 # 레파지토리 참고하라
